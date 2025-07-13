@@ -23,3 +23,8 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter), sans-serif;
 }
+
+.react-grid-placeholder {
+  background: transparent !important;
+  border: none !important;
+}

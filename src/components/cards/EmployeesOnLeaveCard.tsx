@@ -10,25 +10,25 @@ import {
 
 function EmployeesOnLeaveCard() {
   return (
-    <div className="w-full h-full flex flex-col gap-5 py-5 px-6 rounded-[14px] border border-gray-200 overflow-hidden">
+    <div className="w-full h-full bg-white flex flex-col gap-5 py-5 px-6 rounded-[14px] border border-gray-200 overflow-hidden">
       <p className="font-medium text-base leading-none">
         Employees on Leave (6)
       </p>
 
-      <div className="flex gap-2 min-w-max overflow-hidden overflow-x-auto">
-        <button className="cursor-pointer bg-primary hover:bg-primary/90 text-white px-[14px] h-[27px] rounded-sm transition-all duration-200 ease-in-out">
+      <div className="flex gap-2 overflow-x-auto whitespace-nowrap scroll-smooth">
+        <button className="flex-shrink-0 cursor-pointer bg-primary hover:bg-primary/90 text-white px-3 h-[27px] rounded-sm transition-all duration-200 ease-in-out">
           All
         </button>
 
-        <button className="cursor-pointer bg-gray-50 hover:bg-gray-100 border border-gray-200 px-[14px] h-[27px] rounded-sm transition-all duration-200 ease-in-out">
+        <button className="flex-shrink-0 cursor-pointer bg-gray-50 hover:bg-gray-100 border border-gray-200 px-3 h-[27px] rounded-sm transition-all duration-200 ease-in-out">
           Full Day
         </button>
 
-        <button className="cursor-pointer bg-gray-50 hover:bg-gray-100 border border-gray-200 px-[14px] h-[27px] rounded-sm transition-all duration-200 ease-in-out">
+        <button className="flex-shrink-0 cursor-pointer bg-gray-50 hover:bg-gray-100 border border-gray-200 px-3 h-[27px] rounded-sm transition-all duration-200 ease-in-out">
           Half Day
         </button>
 
-        <button className="cursor-pointer bg-gray-50 hover:bg-gray-100 border border-gray-200 px-[14px] h-[27px] rounded-sm transition-all duration-200 ease-in-out">
+        <button className="flex-shrink-0 cursor-pointer bg-gray-50 hover:bg-gray-100 border border-gray-200 px-3 h-[27px] rounded-sm transition-all duration-200 ease-in-out">
           Uninformed
         </button>
       </div>

@@ -1,11 +1,11 @@
 import type { Layout } from "react-grid-layout";
 
-export const CARDS_NAME: string[] = [
-  "TodaysLateArrivalsCard",
-  "TodaysAbsentsCard",
-  "TodaysAttendanceCard",
-  "EmployeesOnLeaveCard",
-  "EventsCard",
+export const CARDS_IDS: string[] = [
+  "todays-attendance-card",
+  "todays-absents-card",
+  "todays-late-arrivals-card",
+  "employees-on-leave-card",
+  "events-card",
 ];
 
 export const INITIAL_LAYOUT: Layout[] = [
@@ -36,13 +36,13 @@ export const INITIAL_LAYOUT: Layout[] = [
     minW: 2,
     minH: 2,
   },
-  {
-    i: "employees-on-leave-card",
-    x: 6,
-    y: 0,
-    w: 2,
-    h: 4,
-    minW: 2,
-    minH: 4,
-  },
+  //   {
+  //     i: "employees-on-leave-card",
+  //     x: 6,
+  //     y: 0,
+  //     w: 2,
+  //     h: 4,
+  //     minW: 2,
+  //     minH: 4,
+  //   },
 ];

@@ -2,6 +2,7 @@
 
 import React from "react";
 import { CardsList, Header, Sidebar } from "@/components/common";
+import { CardProviderContext } from "@/contexts";
 
 function DashboardLayout({
   children,
@@ -14,9 +15,11 @@ function DashboardLayout({
         <Header />
 
         <main className="flex-1 h-[calc(100vh-74px)] overflow-hidden overflow-y-auto">
-          {children}
+          <CardProviderContext>
+            {children}
 
-          <CardsList />
+            <CardsList />
+          </CardProviderContext>
         </main>
       </div>
     </div>
